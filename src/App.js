@@ -6,15 +6,20 @@ import Home from './pages/Home';
 import Services from './pages/Services';
 import ChatwAI from './pages/ChatwAI';
 import Blogs from './pages/Blogs';
+import FormComponent from './components/FormComponent';
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        {/* Display FormComponent first */}
+        <Route path="/" element={<FormComponent />} />
+
+        {/* Main Content under /main */}
+        <Route path="/main" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="chatwAI" element={<ChatwAI/>} />
-          <Route path="blogs" element={<Blogs/>}/>
+          <Route path="services" element={<Services />} />
+          <Route path="chatwAI" element={<ChatwAI />} />
+          <Route path="blogs" element={<Blogs />} />
         </Route>
       </Routes>
     </BrowserRouter>

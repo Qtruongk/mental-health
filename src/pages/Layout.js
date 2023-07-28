@@ -24,19 +24,19 @@ const Layout = () => {
                     </li>
                     <li className="nav__item">
                         <box-icon name='calendar-alt' className="nav-icon"></box-icon>
-                        <Link to="/services" className="nav__link">
+                        <Link to="services" className="nav__link">
                             <span class="nav__name">Services</span>
                         </Link>
                     </li>
                     <li className="nav__item">
                         <box-icon name='message-square' className="nav-icon"></box-icon>                        
-                        <Link to="/chatwAI" className="nav__link">
+                        <Link to="chatwAI" className="nav__link">
                             <span class="nav__name">ChatwAI</span>
                         </Link>
                     </li>
                     <li className="nav__item">
                         <box-icon name='book-content'></box-icon>
-                        <Link to="/blogs" className="nav__link">
+                        <Link to="blogs" className="nav__link">
                             <span class="nav__name">Blogs</span>
                         </Link>
                     </li>
