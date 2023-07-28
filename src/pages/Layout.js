@@ -1,4 +1,3 @@
-
 import { Outlet, Link } from "react-router-dom";
 import "./Layout.css";
 import Logo1 from "../assets/Logo1.png";
