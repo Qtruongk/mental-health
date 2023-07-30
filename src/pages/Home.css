@@ -249,7 +249,7 @@
   height: 145px;
   }
 .nhn-vin-t {
-    position: relative;
+  position: relative;
     font-size: 20px;
     font-family: 'Lao MN';
     color: #002482;
@@ -259,13 +259,17 @@
     height: 222px;
     }
 .nh-bn-b {
-      position: relative;
-      font-size: 20px;
-      font-family: 'Lao MN';
-      color: #042e9a;
-      text-align: center;
-      display: inline-block;
-      width: 236px;
+  position: relative;
+  font-size: 20px;
+  font-family: 'Lao MN';
+  color: #042e9a;
+  text-align: center;
+  display: inline-block;
+width: 236px;
       height: 191px;
-      }
+}
+
+
+        
+        
     

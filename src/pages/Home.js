@@ -4,6 +4,9 @@ import backgroundhome from "../assets/backgroundhome.png";
 import image5 from "../assets/image 5.png";
 import image6 from"../assets/image 6.png";
 import image7 from "../assets/image 7.png";
+import anhavt1 from "../assets/IMG_9751 1.png";
+import anhavt2 from "../assets/image 11 (1).png";
+import anhavt3 from "../assets/image 12.png";
 import "./Home.css";
 const Home = () => {
     return (
@@ -95,19 +98,25 @@ const Home = () => {
             </div>
             <div className="review">
                 <div className="anh-pht-phng-container">
+                    <img class="img-9751-1-icon" alt="" src={anhavt1}/>
+                    <p> ⭐⭐⭐⭐⭐</p>
                     <p class="anh-pht">Anh Phát </p>
                     <p class="anh-pht">(Phường 9, Xã Hoà Tân,TP. Cà Mau)</p>
                     <div class="mnh-tn">Mình ở tận Cà Mau và bị stress trong thời gian dài. Nhờ đến Blog của các bạn mình đã thoát khỏi tiêu cực và sống hạnh phúc❤️❤️</div>
                 </div>
                 <div className="anh-l-lm-container">
+                    <img class="image-11-icon" alt="" src={anhavt2}/>
+                    <p> ⭐⭐⭐⭐⭐</p>
                     <p class="anh-l-lm">Anh Lê Lâm</p>
-                    <p class="anh-l-lm"> (Đường CMT8, Q.10, TPHCM )</p>
-                    <div class="nhn-vin-t">Bạn phát rất đẹp trai và phong độ, đã tư vấn nhiệt tình mọi nơi, giúp mình thoải mái hơn ạ</div>
+                    <p class="anh-l-lm"> (Đường CMT8, Q.10, TPHCM)</p>
+                    <div class="nhn-vin-t">Nhờ bạn bè mà mình biết đến XPT và ngày đêm đọc blog của các bạn, mình cũng dần hoà nhập lại với nhịp sống bình thường.</div>
                 </div>
                 <div className="anh-khoa-tho-container">
+                    <img class="image-12-icon" alt="" src={anhavt3} />
+                    <p> ⭐⭐⭐⭐⭐</p>
                     <p class="anh-khoa">Anh Khoa </p>
                     <p class="anh-khoa">(Thảo Điền, Q.2, TPHCM) </p>
-                    <div class="nh-bn-b">Nhờ bạn bè mà mình biết đến XPT và ngày đêm đọc blog của các bạn, mình cũng dần hoà nhập lại với nhịp sống bình thường.</div>
+                    <div class="nh-bn-b">Bạn phát rất đẹp trai và phong độ, đã tư vấn nhiệt tình mọi nơi, giúp mình thoải mái hơn ạ</div>
                 </div>
             </div>
         </div>
