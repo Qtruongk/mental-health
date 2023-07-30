@@ -51,7 +51,7 @@
       position: fixed;
       bottom: 0;
       left: 0;
-      background-color: var(--container-color);
+      background-color: #95D2F0;
       box-shadow: 0 -1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
       width: 100%;
       height: 4rem;
@@ -339,3 +339,38 @@
         margin-right: auto;
     }
 }
+
+/* Thêm CSS cho phần "Blogs" */
+.blogs__menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff; /* Thay đổi màu nền tùy ý */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Thay đổi hiệu ứng bóng đổ tùy ý */
+  }
+  
+  /* Hiển thị thanh menu khi di chuột qua phần "Blogs" */
+  .nav__item:hover .blogs__menu {
+    display: block;
+  }
+  
+  /* Thêm CSS cho danh sách các mục trong thanh menu */
+  .blogs__menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .blogs__menu-item {
+    padding: 8px 16px; /* Thay đổi khoảng cách và lề tùy ý */
+  }
+  
+  .blogs__menu-item a {
+    color: #333; /* Thay đổi màu chữ tùy ý */
+    text-decoration: none;
+  }
+  
+  .blogs__menu-item a:hover {
+    color: #007bff; /* Thay đổi màu chữ khi di chuột qua tùy ý */
+  }

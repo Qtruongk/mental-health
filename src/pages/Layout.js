@@ -1,7 +1,27 @@
+import React, { useEffect } from "react";
 import { Outlet, Link } from "react-router-dom";
 import "./Layout.css";
 import Logo1 from "../assets/Logo1.png";
 const Layout = () => {
+    useEffect(() => {
+        const blogsItem = document.querySelector(".blogs__item");
+        const blogsMenu = document.querySelector(".blogs__menu");
+    
+        const handleScroll = () => {
+          const { top } = blogsItem.getBoundingClientRect();
+          if (top < 0) {
+            blogsMenu.classList.add("show");
+          } else {
+            blogsMenu.classList.remove("show");
+          }
+        };
+    
+        window.addEventListener("scroll", handleScroll);
+    
+        return () => {
+          window.removeEventListener("scroll", handleScroll);
+        };
+      }, []);
   return (
     <>
     <header className="header" id="header"> 
@@ -38,6 +58,16 @@ const Layout = () => {
                         <Link to="blogs" className="nav__link">
                             <span class="nav__name">Blogs</span>
                         </Link>
+                        <div className="blogs__menu">
+                            <ul className="blogs__menu-list">
+                                <li className="blogs__menu-item">
+                                    <Link to="common">Common</Link>
+                                </li>
+                                <li className="blogs__menu-item">
+                                    <Link to="genz-peer-peersure">Genz Peer%Peersure</Link>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
             </div>

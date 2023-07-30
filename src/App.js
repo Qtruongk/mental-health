@@ -7,7 +7,6 @@ import Services from './pages/Services';
 import ChatwAI from './pages/ChatwAI';
 import Blogs from './pages/Blogs';
 import FormComponent from './components/FormComponent';
-import Footer from './components/Footer';
 function App() {
   // Check if the user is logged in from localStorage
   const isLoggedIn = localStorage.getItem('isLoggedIn') === 'true';
@@ -26,7 +25,6 @@ function App() {
           <Route path="blogs" element={<Blogs />} />
         </Route>
       </Routes>
-      <Footer/>
     </BrowserRouter>
   );
 }
