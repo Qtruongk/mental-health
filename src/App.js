@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from './pages/Layout';
 import Home from './pages/Home';
 import Services from './pages/Services';
@@ -15,8 +15,9 @@ function App() {
   const isLoggedIn = localStorage.getItem('isLoggedIn') === 'true';
 
   return (
-    <Router>
+    <BrowserRouter>
       <Routes>
+        <Route path="/" element={<FormComponent />} />
         {/* Display FormComponent if the user is not logged in */}
         {!isLoggedIn && <Route path="/" element={<FormComponent />} />}
 
@@ -33,7 +34,7 @@ function App() {
           </Route>
         </Route>
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 

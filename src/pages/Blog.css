@@ -1,4 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansation+Light:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansation:wght@400&display=swap');
+.title1{
+    display: flex;
+    align-items: center; /* Vertically center the children */
+
+}
 .common {
     margin: 72px 0 10px;
     position: relative;
@@ -11,4 +20,46 @@
     height: 60px;
     -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
 }
-    
+.date1{
+    position: relative;
+    font-size: 15px;
+    font-family: 'Lexend Giga';
+    color: #3b549e;
+    text-align: left;
+    width: 138px;
+    height: 24px;
+    display: flex;
+}
+.main title{
+    font-size: 40px;
+    font-family: 'Libre Bodoni';
+    color: #000;
+    text-align: left;
+    display: inline-block;
+    width: 491px;
+    height: 1000px;
+    flex-direction: column; /* Display the children vertically */
+}
+.para1{
+font-size: 20px;
+font-weight: 300;
+font-family: 'Sansation Light';
+color: #000;
+text-align: left;
+display: inline-block;
+width: 768px;
+height: 26px;
+}
+.read-link{
+font-size: 20px;
+font-family: "Sansation";
+color: #000;
+text-align: left;
+}
+.anh-blog{
+    position: relative;
+width: 294px;
+height: 178px;
+object-fit: cover;
+margin-right: 20px;
+}

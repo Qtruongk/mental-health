@@ -151,6 +151,7 @@
   display: flex;
   justify-content: center;
   height: 100vh; /* Adjust the height as needed */
+ margin: 0 20px;
 }
 
 .mental-health-quiz {
@@ -171,3 +172,100 @@
   border-radius: 50px;
   background-color: #042e9a;
 }
+
+.anh-pht {
+  margin: 0;
+  }
+  .anh-pht-phng-container {
+  position: relative;
+  font-size: 20px;
+  font-family: 'Kotta One';
+  color: #002482;
+  text-align: center;
+  display: inline-block;
+  width: 305px;
+  height: 46px;
+  }
+  
+.anh-l-lm {
+    margin: 0;
+    }
+    .anh-l-lm-container {
+    position: relative;
+    font-size: 20px;
+    font-family: 'Kotta One';
+    color: #042e9a;
+    text-align: center;
+    display: inline-block;
+    width: 317px;
+    height: 48px;
+}
+.anh-khoa {
+  margin: 0;
+  }
+  .anh-khoa-tho-container {
+  position: relative;
+  font-size: 20px;
+  font-family: 'Kotta One';
+  color: #042e9a;
+  text-align: center;
+  display: inline-block;
+  width: 316px;
+  height: 58px;
+}  
+.review {
+  display: flex;
+  flex-direction: row; /* Dàn các ô theo hướng dọc */
+  align-items: center; /* Các ô được căn giữa theo chiều ngang */
+}
+
+.review > div {
+  position: relative;
+  border-radius: 50px;
+  width: 304px;
+  height: 361px;
+  background-color: #95D3F1;
+  justify-content: space-between;
+  margin: 70px;
+  padding: 10px;
+}
+
+.what-is-mental-container,
+.why-is-mental-container,
+.what-causes-mental-container,
+.quiz__container,
+.review {
+  margin-bottom: 20px;
+}
+
+.mnh-tn {
+  position: relative;
+  font-size: 20px;
+  font-family: 'Lao MN';
+  color: #042e9a;
+  text-align: center;
+  display: inline-block;
+  width: 262px;
+  height: 145px;
+  }
+.nhn-vin-t {
+    position: relative;
+    font-size: 20px;
+    font-family: 'Lao MN';
+    color: #002482;
+    text-align: center;
+    display: inline-block;
+    width: 257px;
+    height: 222px;
+    }
+.nh-bn-b {
+      position: relative;
+      font-size: 20px;
+      font-family: 'Lao MN';
+      color: #042e9a;
+      text-align: center;
+      display: inline-block;
+      width: 236px;
+      height: 191px;
+      }
+    
