@@ -9,7 +9,7 @@ const FormComponent = () => {
     password: '',
     email: '',
   });
-
+  const [isLoggedIn, setIsLoggedIn] = useState(localStorage.getItem('isLoggedIn') === 'true');
   const handleInputChange = (event) => {
     const { name, value } = event.target;
     setFormData((prevFormData) => ({ ...prevFormData, [name]: value }));
@@ -28,6 +28,11 @@ const FormComponent = () => {
       passwordValue === 'testing' &&
       emailValue === 'testing@gmail.com'
     ) {
+      // Set the isLoggedIn flag in localStorage to true
+      localStorage.setItem('isLoggedIn', 'true');
+      // Update the state to indicate the user has logged in
+      setIsLoggedIn(true);
+
       // Redirect to the homepage if login is successful
       console.log('Redirecting to the homepage...');
       navigate('/main'); // Assuming the path for the homepage is '/'
@@ -36,12 +41,17 @@ const FormComponent = () => {
     }
   };
 
+  // If the user is logged in, don't render the login form
+  if (isLoggedIn) {
+    return <p>Welcome back! You are already logged in.</p>;
+  }
+
   return (
     <form onSubmit={handleSubmit} className='center-container'>
       <h1>Contact Form</h1>
       <div>
         <label htmlFor="username">Username: </label>
-        <input
+        <input 
           type="text"
           id="username"
           name="username"

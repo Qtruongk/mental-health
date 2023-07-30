@@ -42,6 +42,8 @@
     position: sticky;
     top: 0;
     z-index: 1;
+    background-color: #95D2F0 ;
+    color: #fff;
 }
 
 @media screen and (max-width: 767px) {
@@ -82,20 +84,22 @@
   
 .nav__name {
     font-size: var(--tiny-font-size);
+    color: #fff;
     /* display: none;*/ /* Minimalist design, hidden labels */
   }
   
 .nav__icon {
     font-size: 1.5rem;
+    color: #fff;
 }
 .nav__item {
     display: flex;
     flex-direction: column;
     align-items: center;
     row-gap: 4px;
-    color: var(--title-color);
     font-weight: 600;
     flex: 1; /* Chỉnh chiều rộng các phần tử để tự động căn chỉnh */
+    color: #fff;
 }
 /*Active link*/
 .active-link {
