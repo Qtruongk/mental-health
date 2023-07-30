@@ -1,0 +1,766 @@
+.blog-common,
+.blog-common * {
+  box-sizing: border-box;
+}
+.blog-common {
+  background: #ffffff;
+  width: 1440px;
+  height: 3974px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-2 {
+  position: absolute;
+  left: 0px;
+  top: -1px;
+  overflow: visible;
+}
+.line-1 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 3px 0 0 0;
+  width: 569px;
+  height: 0px;
+  position: absolute;
+  left: 831px;
+  top: 79px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.rectangle-37 {
+  background: rgba(216, 242, 255, 0.41);
+  width: 127px;
+  height: 37px;
+  position: absolute;
+  left: 909px;
+  top: 33px;
+}
+.services-blog-chatw-ai-sign-in-log-in {
+  color: #2d1e1e;
+  text-align: left;
+  font: 300 16px "Lexend Mega", sans-serif;
+  position: absolute;
+  left: 798px;
+  top: 41px;
+  width: 563px;
+  height: 45px;
+}
+.rectangle-3 {
+  border-radius: 0px;
+  position: absolute;
+  left: 798px;
+  top: 101px;
+  overflow: visible;
+}
+.image-2 {
+  width: 22px;
+  height: 21px;
+  position: absolute;
+  left: 1361px;
+  top: 100px;
+}
+.screen-shot-2023-07-20-at-12-25-1 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 117px;
+  height: 127px;
+  position: absolute;
+  left: 14px;
+  top: 11px;
+}
+.xpt {
+  color: #002482;
+  text-align: left;
+  font: 400 48px "Macondo Swash Caps", sans-serif;
+  position: absolute;
+  left: 123px;
+  top: 41px;
+  width: 97px;
+  height: 50px;
+}
+.you-are-not-your-illness {
+  color: #0037a1;
+  text-align: left;
+  font: 400 12px "Corinthia", sans-serif;
+  position: absolute;
+  left: 124px;
+  top: 100px;
+  width: 144px;
+  height: 14px;
+}
+.search {
+  color: #000000;
+  text-align: left;
+  font: 300 16px "Lexend Mega", sans-serif;
+  position: absolute;
+  left: 807px;
+  top: 106px;
+  width: 134px;
+}
+.image-14 {
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  left: 1340px;
+  top: 39px;
+}
+.common {
+  color: #293f79;
+  text-align: left;
+  font: 400 48px "Lexend Deca", sans-serif;
+  position: absolute;
+  left: 535px;
+  top: 283px;
+  width: 272px;
+  height: 60px;
+}
+.image-15 {
+  width: 294px;
+  height: 178px;
+  position: absolute;
+  left: 76px;
+  top: 382px;
+}
+.may-20-2023 {
+  color: #3b549e;
+  text-align: left;
+  font: 400 15px "Lexend Giga", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 382px;
+  width: 138px;
+  height: 24px;
+}
+.december-20-2022 {
+  color: #3b549e;
+  text-align: left;
+  font: 400 15px "Lexend Giga", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 651px;
+  width: 187px;
+  height: 24px;
+}
+.february-14-2022 {
+  color: #3b549e;
+  text-align: left;
+  font: 400 15px "Lexend Giga", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 965px;
+  width: 187px;
+  height: 24px;
+}
+.january-24-2022 {
+  color: #3b549e;
+  text-align: left;
+  font: 400 15px "Lexend Giga", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 1294px;
+  width: 187px;
+  height: 24px;
+}
+.april-18-2022 {
+  color: #3b549e;
+  text-align: left;
+  font: 400 15px "Lexend Giga", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 1644px;
+  width: 187px;
+  height: 24px;
+}
+.august-26-2023 {
+  color: #3b549e;
+  text-align: left;
+  font: 400 15px "Lexend Giga", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 1972px;
+  width: 187px;
+  height: 3px;
+}
+.august-30-2023 {
+  color: #3b549e;
+  text-align: left;
+  font: 400 15px "Lexend Giga", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 2326px;
+  width: 187px;
+  height: 24px;
+}
+.september-5-2023 {
+  color: #3b549e;
+  text-align: left;
+  font: 400 15px "Lexend Giga", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 2689px;
+  width: 187px;
+  height: 23px;
+}
+.september-10-2023 {
+  color: #3b549e;
+  text-align: left;
+  font: 400 15px "Lexend Giga", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 3036px;
+  width: 187px;
+  height: 23px;
+}
+.september-15-2023 {
+  color: #3b549e;
+  text-align: left;
+  font: 400 15px "Lexend Giga", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 3360px;
+  width: 187px;
+  height: 23px;
+}
+.screen-shot-2023-07-21-at-1-10-1 {
+  width: 33px;
+  height: 20px;
+  position: absolute;
+  left: 505px;
+  top: 522px;
+}
+.screen-shot-2023-07-21-at-1-10-2 {
+  width: 33px;
+  height: 20px;
+  position: absolute;
+  left: 508px;
+  top: 836px;
+}
+.screen-shot-2023-07-21-at-1-10-3 {
+  width: 33px;
+  height: 20px;
+  position: absolute;
+  left: 508px;
+  top: 1162px;
+}
+.screen-shot-2023-07-21-at-1-10-4 {
+  width: 33px;
+  height: 20px;
+  position: absolute;
+  left: 508px;
+  top: 1493px;
+}
+.screen-shot-2023-07-21-at-1-10-5 {
+  width: 33px;
+  height: 20px;
+  position: absolute;
+  left: 508px;
+  top: 1816px;
+}
+.read-more {
+  color: #000000;
+  text-align: left;
+  font: 400 20px "Sansation", sans-serif;
+  position: absolute;
+  left: 389px;
+  top: 521px;
+}
+.read-more2 {
+  color: #000000;
+  text-align: left;
+  font: 400 20px "Sansation", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 835px;
+}
+.read-more3 {
+  color: #000000;
+  text-align: left;
+  font: 400 20px "Sansation", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 1161px;
+}
+.read-more4 {
+  color: #000000;
+  text-align: left;
+  font: 400 20px "Sansation", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 1492px;
+}
+.read-more5 {
+  color: #000000;
+  text-align: left;
+  font: 400 20px "Sansation", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 1815px;
+}
+.screen-shot-2023-07-21-at-1-10-6 {
+  width: 33px;
+  height: 20px;
+  position: absolute;
+  left: 508px;
+  top: 2182px;
+}
+.screen-shot-2023-07-21-at-1-10-7 {
+  width: 33px;
+  height: 20px;
+  position: absolute;
+  left: 508px;
+  top: 2535px;
+}
+.screen-shot-2023-07-21-at-1-10-8 {
+  width: 33px;
+  height: 20px;
+  position: absolute;
+  left: 508px;
+  top: 2854px;
+}
+.screen-shot-2023-07-21-at-1-10-9 {
+  width: 33px;
+  height: 20px;
+  position: absolute;
+  left: 508px;
+  top: 3217px;
+}
+.screen-shot-2023-07-21-at-1-10-10 {
+  width: 33px;
+  height: 20px;
+  position: absolute;
+  left: 508px;
+  top: 3551px;
+}
+.read-more6 {
+  color: #000000;
+  text-align: left;
+  font: 400 20px "Sansation", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 2181px;
+}
+.read-more7 {
+  color: #000000;
+  text-align: left;
+  font: 400 20px "Sansation", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 2534px;
+}
+.read-more8 {
+  color: #000000;
+  text-align: left;
+  font: 400 20px "Sansation", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 2853px;
+}
+.read-more9 {
+  color: #000000;
+  text-align: left;
+  font: 400 20px "Sansation", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 3216px;
+}
+.read-more10 {
+  color: #000000;
+  text-align: left;
+  font: 400 20px "Sansation", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 3550px;
+}
+.here-are-10-tips-to-help-you-overcome-loneliness {
+  color: #000000;
+  text-align: left;
+  font: 300 20px "Sansation Light", sans-serif;
+  position: absolute;
+  left: 389px;
+  top: 476px;
+  width: 463px;
+  height: 26px;
+}
+.identify-why-you-feel-disconnected-and-techniques-to-help-rebuild-your-relationship {
+  color: #000000;
+  text-align: left;
+  font: 300 20px "Sansation Light", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 794px;
+  width: 768px;
+  height: 26px;
+}
+.learn-how-to-overcome-black-and-white-thinking {
+  color: #000000;
+  text-align: left;
+  font: 300 20px "Sansation Light", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 1110px;
+  width: 768px;
+  height: 26px;
+}
+.if-you-live-with-regret-consider-these-5-tips-to-cope {
+  color: #000000;
+  text-align: left;
+  font: 300 20px "Sansation Light", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 1439px;
+  width: 768px;
+  height: 26px;
+}
+.here-we-discuss-the-psychology-behind-affirmations {
+  color: #000000;
+  text-align: left;
+  font: 300 20px "Sansation Light", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 1753px;
+  width: 768px;
+  height: 26px;
+}
+.how-to-stop-feeling-lonely {
+  color: #000000;
+  text-align: left;
+  font: 400 40px "Libre Bodoni", sans-serif;
+  position: absolute;
+  left: 389px;
+  top: 419px;
+}
+.what-to-do-if-you-feel-disconnected-from-your-family {
+  color: #000000;
+  text-align: left;
+  font: 400 40px "Libre Bodoni", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 679px;
+  width: 751px;
+}
+.how-does-black-and-white-thinking-affect-your-mood-and-behavior {
+  color: #000000;
+  text-align: left;
+  font: 400 40px "Libre Bodoni", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 992px;
+  width: 751px;
+}
+.living-with-regrets-and-how-to-deal-with-them {
+  color: #000000;
+  text-align: left;
+  font: 400 40px "Libre Bodoni", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 1322px;
+  width: 751px;
+}
+.do-positve-affirmations-work {
+  color: #000000;
+  text-align: left;
+  font: 400 40px "Libre Bodoni", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 1674px;
+  width: 751px;
+}
+.understanding-maladaptive-daydreaming {
+  color: #000000;
+  text-align: left;
+  font: 400 40px "Libre Bodoni", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 1999px;
+  width: 751px;
+}
+.relationships-where-women-earn-more-and-it-bothers-1-of-you {
+  color: #000000;
+  text-align: left;
+  font: 400 40px "Libre Bodoni", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 2357px;
+  width: 751px;
+}
+.the-link-between-pcos-and-depression {
+  color: #000000;
+  text-align: left;
+  font: 400 40px "Libre Bodoni", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 2724px;
+  width: 751px;
+}
+._8-schizophrenia-tattoos {
+  color: #000000;
+  text-align: left;
+  font: 400 40px "Libre Bodoni", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 3068px;
+  width: 751px;
+}
+.summer-sadness-how-to-cope-with-sad {
+  color: #000000;
+  text-align: left;
+  font: 400 40px "Libre Bodoni", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 3387px;
+  width: 751px;
+}
+.image-16 {
+  width: 303.38px;
+  height: 253px;
+  position: absolute;
+  left: 72.31px;
+  top: 659px;
+}
+.screen-shot-2023-07-21-at-3-37-1 {
+  width: 294px;
+  height: 246px;
+  position: absolute;
+  left: 76px;
+  top: 955px;
+}
+.screen-shot-2023-07-21-at-3-52-1 {
+  width: 294px;
+  height: 266px;
+  position: absolute;
+  left: 76px;
+  top: 1283px;
+}
+.image-18 {
+  width: 294px;
+  height: 226px;
+  position: absolute;
+  left: 78px;
+  top: 645px;
+}
+.screen-shot-2023-07-21-at-4-01-1 {
+  width: 294px;
+  height: 248px;
+  position: absolute;
+  left: 76px;
+  top: 1621px;
+}
+.image-45 {
+  width: 294px;
+  height: 269px;
+  position: absolute;
+  left: 76px;
+  top: 1952px;
+}
+.maladaptive-daydreaming-involves-long-periods-of-structured-fantasy-that-may-interfere-with-your-daily-life-typically-in-response-to-trauma-but-help {
+  color: #000000;
+  text-align: left;
+  font: 300 20px "Sansation Light", sans-serif;
+  position: absolute;
+  left: 393px;
+  top: 2117px;
+  width: 674px;
+  height: 54px;
+}
+.here-are-4-ways-to-navigate-power-dynamics-in-your-relationship {
+  color: #000000;
+  text-align: left;
+  font: 300 20px "Sansation Light", sans-serif;
+  position: absolute;
+  left: 393px;
+  top: 2481px;
+  width: 674px;
+  height: 54px;
+}
+.discover-the-connection-between-pcos-and-depression {
+  color: #000000;
+  text-align: left;
+  font: 300 20px "Sansation Light", sans-serif;
+  position: absolute;
+  left: 393px;
+  top: 2799px;
+  width: 674px;
+  height: 54px;
+}
+.consider-these-8-tattoos-ideas-to-honor-your-mental-health-journey {
+  color: #000000;
+  text-align: left;
+  font: 300 20px "Sansation Light", sans-serif;
+  position: absolute;
+  left: 393px;
+  top: 3147px;
+  width: 674px;
+  height: 54px;
+}
+.discover-signs-and-treatment-options-that-can-help-you-cope-with-summer-onset-sad {
+  color: #000000;
+  text-align: left;
+  font: 300 20px "Sansation Light", sans-serif;
+  position: absolute;
+  left: 393px;
+  top: 3466px;
+  width: 674px;
+  height: 54px;
+}
+.screen-shot-2023-07-26-at-10-12-1 {
+  width: 294px;
+  height: 281px;
+  position: absolute;
+  left: 76px;
+  top: 2306px;
+}
+.screen-shot-2023-07-26-at-10-12-2 {
+  width: 294px;
+  height: 241px;
+  position: absolute;
+  left: 76px;
+  top: 2673px;
+}
+.screen-shot-2023-07-26-at-10-51-1 {
+  width: 294px;
+  height: 241px;
+  position: absolute;
+  left: 76px;
+  top: 3021px;
+}
+.screen-shot-2023-07-26-at-10-51-2 {
+  width: 294px;
+  height: 244px;
+  position: absolute;
+  left: 76px;
+  top: 3346px;
+}
+.screen-shot-2023-07-12-at-8-27-1 {
+  width: 30px;
+  height: 23px;
+  position: absolute;
+  left: 986px;
+  top: 41px;
+}
+.rectangle-36 {
+  background: #d8f2ff;
+  width: 127px;
+  height: 93px;
+  position: absolute;
+  left: 909px;
+  top: 70px;
+}
+.common-psychology-marriage-depression-facts {
+  color: #000000;
+  text-align: left;
+  font: 300 13px "Lexend Mega", sans-serif;
+  position: absolute;
+  left: 913px;
+  top: 76px;
+  width: 119px;
+  height: 93px;
+}
+.rectangle-38 {
+  background: #ffffff;
+  width: 32px;
+  height: 36px;
+  position: absolute;
+  left: 570px;
+  top: 3723px;
+}
+.rectangle-39 {
+  position: absolute;
+  left: 570px;
+  top: 3723px;
+  overflow: visible;
+}
+.rectangle-40 {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 32px;
+  height: 36px;
+  position: absolute;
+  left: 698px;
+  top: 3723px;
+}
+.rectangle-41 {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 32px;
+  height: 36px;
+  position: absolute;
+  left: 666px;
+  top: 3723px;
+}
+.rectangle-42 {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 32px;
+  height: 36px;
+  position: absolute;
+  left: 634px;
+  top: 3723px;
+}
+.rectangle-43 {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 32px;
+  height: 36px;
+  position: absolute;
+  left: 602px;
+  top: 3723px;
+}
+._1 {
+  color: #000000;
+  text-align: left;
+  font: 400 15px "Lexend Deca", sans-serif;
+  position: absolute;
+  left: 582px;
+  top: 3732px;
+  width: 8px;
+  height: 18px;
+}
+._5 {
+  color: #000000;
+  text-align: left;
+  font: 400 15px "Lexend Deca", sans-serif;
+  position: absolute;
+  left: 710px;
+  top: 3732px;
+  width: 8px;
+  height: 18px;
+}
+._4 {
+  color: #000000;
+  text-align: left;
+  font: 400 15px "Lexend Deca", sans-serif;
+  position: absolute;
+  left: 678px;
+  top: 3732px;
+  width: 8px;
+  height: 18px;
+}
+._3 {
+  color: #000000;
+  text-align: left;
+  font: 400 15px "Lexend Deca", sans-serif;
+  position: absolute;
+  left: 646px;
+  top: 3732px;
+  width: 8px;
+  height: 18px;
+}
+._2 {
+  color: #000000;
+  text-align: left;
+  font: 400 15px "Lexend Deca", sans-serif;
+  position: absolute;
+  left: 614px;
+  top: 3732px;
+  width: 8px;
+  height: 18px;
+}

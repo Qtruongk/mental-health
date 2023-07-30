@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&display=swap');
+.common {
+    margin: 72px 0 10px;
+    position: relative;
+    font-size: 48px;
+    font-family: 'Lexend Deca';
+    color: #293f79;
+    text-align: left;
+    display: inline-block;
+    width: 272px;
+    height: 60px;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+}
+    
