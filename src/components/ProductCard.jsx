@@ -26,7 +26,7 @@ const ProductCard = () => {
       <div className="products">
         <div className="product">
           <div className="image-pc">
-            <img src="img/m1.jpg" alt="" />
+            <img src="assets/m1.jpg" alt="" />
           </div>
           <div className="namePrice">
             <h3>Healing</h3>
@@ -41,7 +41,7 @@ const ProductCard = () => {
 
         <div className="product">
           <div className="image-pc">
-            <img src="img/m2.jpg" alt="" />
+            <img src="assets/m2.jpg" alt="" />
           </div>
           <div className="namePrice">
             <h3>Piano ~~</h3>
@@ -56,7 +56,7 @@ const ProductCard = () => {
 
         <div className="product">
           <div className="image-pc">
-            <img src="img/m3.jpg" alt="" />
+            <img src="assets/m3.jpg" alt="" />
           </div>
           <div className="namePrice">
             <h3>Nhạc Thiền - Tĩnh tâm - An Nhiên</h3>
@@ -71,7 +71,7 @@ const ProductCard = () => {
 
         <div className="product">
           <div className="image-pc">
-            <img src="img/m4.jpg" alt="" />
+            <img src="assets/m4.jpg" alt="" />
           </div>
           <div className="namePrice">
             <h3>DREamlike HeAven</h3>
@@ -86,7 +86,7 @@ const ProductCard = () => {
 
         <div className="product">
           <div className="image-pc">
-            <img src="img/m5.jpg" alt="" />
+            <img src="assets/m5.jpg" alt="" />
           </div>
           <div className="namePrice">
             <h3>Chill Out Jazz</h3>
@@ -101,7 +101,7 @@ const ProductCard = () => {
         </div>
         <div className="product">
           <div className="image-pc">
-            <img src="img/m6.jpg" alt="" />
+            <img src="assets/m6.jpg" alt="" />
           </div>
           <div className="namePrice">
             <h3>lush lofi</h3>
@@ -116,7 +116,7 @@ const ProductCard = () => {
         </div>
         <div className="product">
           <div className="image-pc">
-            <img src="img/m7.jpg" alt="" />
+            <img src="assets/m7.jpg" alt="" />
           </div>
           <div className="namePrice">
             <h3>chill lofi study beats</h3>
@@ -133,7 +133,7 @@ const ProductCard = () => {
         </div>
         <div className="product">
           <div className="image-pc">
-            <img src="img/m8.jpg" alt="" />
+            <img src="assets/m8.jpg" alt="" />
           </div>
           <div className="namePrice">
             <h3>Peaceful Guitar</h3>
