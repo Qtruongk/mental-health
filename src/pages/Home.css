@@ -167,10 +167,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 378px;
+  width: 450px;
   height: 108px;
   border-radius: 50px;
-  background-color: #042e9a;
+  background-color: rgba(18, 86, 90, 0.65);
+  margin-bottom: 0;
+  margin: 10px;
 }
 
 .anh-pht {
@@ -268,7 +270,14 @@
 width: 236px;
       height: 191px;
 }
-
+.image-8-icon {
+  margin: 50px 0;
+  width: 78px;
+  height: 79px;
+  object-fit: cover;
+  mix-blend-mode: darken;
+  }
+  
 
         
         

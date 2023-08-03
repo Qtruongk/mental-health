@@ -7,12 +7,21 @@ import image7 from "../assets/image 7.png";
 import anhavt1 from "../assets/IMG_9751 1.png";
 import anhavt2 from "../assets/image 11 (1).png";
 import anhavt3 from "../assets/image 12.png";
+import image8 from "../assets/image 8.png";
 import "./Home.css";
 const Home = () => {
     return (
         <>
         <div className="home">
             <img src={backgroundhome} className="img__backgroundhome" alt="Icon"></img>
+            <div className="quiz__container">
+                <div class="mental-health-quiz-container">
+                        <Link to="/services" className="mental-health-quiz">
+                            <p className="mental-health-quiz">TAKE A SERVICE NOW !</p>
+                        </Link>
+                        <img src={image8} class="image-8-icon" alt=""></img>
+                </div>
+            </div>
             <div class="what-is-mental-container">
                 <img src={image5} className="image__icon" alt="Icon"></img>
                 <p class="what-is-mental-health">
@@ -89,13 +98,7 @@ const Home = () => {
                     </li>
                 </ul>
             </div>
-            <div className="quiz__container">
-                <div class="mental-health-quiz-container">
-                        <Link to="/services" className="mental-health-quiz">
-                            <p className="mental-health-quiz">Mental Health Quiz</p>
-                        </Link>
-                </div>
-            </div>
+            
             <div className="review">
                 <div className="anh-pht-phng-container">
                     <img class="img-9751-1-icon" alt="" src={anhavt1}/>
