@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Outlet, Link } from "react-router-dom";
 import "./Layout.css";
-import Logo1 from "../assets/Logo1.png";
+import Logo1 from "../assets/Logo-1.png";
 const Layout = () => {
     useEffect(() => {
         const blogsItem = document.querySelector(".blogs__item");

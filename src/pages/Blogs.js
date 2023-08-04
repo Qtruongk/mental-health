@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom"; // Import thư viện Link
+import { useNavigate } from "react-router-dom";
 import "./Blog.css";
 import anh1 from "../assets/image 15.png";
-const Blogs =() =>{
 
+const Blogs =() =>{
+    const navigate = useNavigate();
     return(
         <div className="blogs">
             <div className="common">
@@ -14,7 +16,9 @@ const Blogs =() =>{
                 <p className="date1">May 20,2023</p>
                 <p className="main title">How to stop feeling lonely</p>
                 <p className="para1"> Here are 10 tips to help you overcome loneliness</p>
-                <Link to="/blog1" className="read-link">Read more</Link> {/* Navigate to Blog1 */}
+                <Link to="/main/blogs/content/blog1" className="read-link">
+                    Read more
+                </Link>
             </div>
             <div className="title2">
                 <p className="date2">December 20, 2022</p>
