@@ -3,25 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 import "./Layout.css";
 import Logo1 from "../assets/Logo-1.png";
 const Layout = () => {
-    useEffect(() => {
-        const blogsItem = document.querySelector(".blogs__item");
-        const blogsMenu = document.querySelector(".blogs__menu");
     
-        const handleScroll = () => {
-          const { top } = blogsItem.getBoundingClientRect();
-          if (top < 0) {
-            blogsMenu.classList.add("show");
-          } else {
-            blogsMenu.classList.remove("show");
-          }
-        };
-    
-        window.addEventListener("scroll", handleScroll);
-    
-        return () => {
-          window.removeEventListener("scroll", handleScroll);
-        };
-      }, []);
   return (
     <>
     <header className="header" id="header"> 
