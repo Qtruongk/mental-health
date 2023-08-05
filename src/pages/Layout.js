@@ -54,20 +54,10 @@ const Layout = () => {
                         </Link>
                     </li>
                     <li className="nav__item">
-                        <box-icon name='book-content'></box-icon>
-                        <Link to="blogs" className="nav__link">
-                            <span class="nav__name">Blogs</span>
+                        <box-icon name='window-alt'></box-icon>                        
+                        <Link to="chill" className="nav__link">
+                            <span class="nav__name">Chill room</span>
                         </Link>
-                        <div className="blogs__menu">
-                            <ul className="blogs__menu-list">
-                                <li className="blogs__menu-item">
-                                    <Link to="common">Common</Link>
-                                </li>
-                                <li className="blogs__menu-item">
-                                    <Link to="genz-peer-peersure">Genz Peer%Peersure</Link>
-                                </li>
-                            </ul>
-                        </div>
                     </li>
                 </ul>
             </div>

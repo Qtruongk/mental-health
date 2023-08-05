@@ -5,9 +5,11 @@ import Layout from './pages/Layout';
 import Home from './pages/Home';
 import Services from './pages/Services';
 import ChatwAI from './pages/ChatwAI';
-import Blogs from './pages/Blogs';
+import Blogs from './pages/Chillroom';
 import FormComponent from './components/FormComponent';
-import Blog1 from './pages/Blog1';
+import ProductCard from './components/ProductCard';
+import TimeLine from './components/TimeLine';
+import Chillroom from './pages/Chillroom';
 function App() {
   // Check if the user is logged in from localStorage
   const isLoggedIn = localStorage.getItem('isLoggedIn') === 'true';
@@ -24,12 +26,8 @@ function App() {
           <Route index element={<Home />} />
             <Route path="services" element={<Services />} />
             <Route path="chatwAI" element={<ChatwAI />} />
-            <Route path="blogs" element={<Blogs />}>
-              <Route path="content">
-                <Route path="blog1" element={<Blog1 />} />
-                {/* Add routes for other blog entries if needed */}
-              </Route>
-            </Route>
+            <Route path="chill" element={<Chillroom />}>
+          </Route>
         </Route>
       </Routes>
     </BrowserRouter>
