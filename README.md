@@ -31,6 +31,8 @@ Welcome to Mental Health XPT – a platform dedicated to helping individuals wit
 ## Usage
 
 1. Open the application in your web browser at `http://localhost:3000` for mental_health, and `http://localhost:5173` for chillplace.
+2. Mental Health log in details: username: Phat, password: testing, gmail: testing@gmail.com
+3. Chill Place log in details: username: Phat, password: 1, gmail: p@gmail.com
 
 ## Contributing
 
