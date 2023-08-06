@@ -1,0 +1,285 @@
+/* Home.css */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+.home {
+  position: relative;
+}
+
+.image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.img__backgroundhome {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* To make the image cover the container without distortion */
+}
+
+/* Para 1 */
+.what-is-mental-health {
+  margin: 0;
+  font-size: 48px;
+  color: #042e9a;
+}
+
+.blank-line {
+  margin: 0;
+}
+
+.what-is-mental-container {
+  position: relative;
+  text-align: left;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  font-size: 24px;
+  color: #000;
+  font-family: 'Lexend Exa';
+}
+
+/* Para 2 */
+.why-is-mental {
+  font-size: 48px;
+  font-family: 'Lexend Exa';
+  color: #042e9a;
+}
+
+.why-is-mental-health-important {
+  margin: 0;
+}
+
+.diabetes1 {
+  text-decoration: underline;
+}
+
+.diabetes {
+  color: inherit;
+}
+
+.mental-and-physical-health-are {
+  margin: 0;
+  color: inherit;
+}
+
+.why-is-mental-container {
+  position: relative;
+  text-align: left;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  font-size: 24px;
+  color: #000;
+  font-family: 'Lexend Exa';
+}
+
+/* Para 3 */
+.what-causes-mental {
+  font-size: 48px;
+  font-family: 'Lexend Exa';
+  color: #042e9a;
+}
+
+.what-causes-mental-illness {
+  margin: 0;
+}
+
+.adverse-childhood-experiences3 {
+  text-decoration: underline;
+}
+
+.adverse-childhood-experiences2 {
+  color: inherit;
+}
+
+.experiences-related-to-other-o {
+  margin-bottom: 0px;
+}
+
+.adverse-childhood-experiences {
+  margin: 0;
+  padding-left: 32px;
+  color: inherit;
+}
+
+.what-causes-mental-container {
+  position: relative;
+  text-align: left;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  font-size: 24px;
+  color: #000;
+  font-family: 'Lexend Exa';
+}
+
+.what-is-mental-container,
+.why-is-mental-container,
+.what-causes-mental-container {
+  /* Để căn giữa đoạn văn bản theo chiều ngang */
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .home {
+    flex-direction: row;
+  }
+
+  .what-is-mental-container,
+  .why-is-mental-container,
+  .what-causes-mental-container {
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+  }
+
+  .what-is-mental-container img,
+  .why-is-mental-container img,
+  .what-causes-mental-container img {
+    width: 100px; /* Điều chỉnh kích thước icon tùy ý */
+    height: 100px;
+  }
+}
+
+.quiz__container {
+  display: flex;
+  justify-content: center;
+ margin: 0 20px;
+}
+
+.mental-health-quiz {
+  margin: 0;
+  font-size: 40px;
+  color: #fff;
+}
+.mental-health-quiz-container {
+  position: relative;
+  font-size: 48px;
+  font-family: 'Koulen', sans-serif;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 108px;
+  border-radius: 50px;
+  background-color: rgba(18, 86, 90, 0.65);
+  margin-bottom: 0;
+  margin: 10px;
+}
+
+.anh-pht {
+  margin: 0;
+  }
+  .anh-pht-phng-container {
+  position: relative;
+  font-size: 20px;
+  font-family: 'Kotta One';
+  color: #002482;
+  text-align: center;
+  display: inline-block;
+  width: 305px;
+  height: 46px;
+  }
+  
+.anh-l-lm {
+    margin: 0;
+    }
+    .anh-l-lm-container {
+    position: relative;
+    font-size: 20px;
+    font-family: 'Kotta One';
+    color: #042e9a;
+    text-align: center;
+    display: inline-block;
+    width: 317px;
+    height: 48px;
+}
+.anh-khoa {
+  margin: 0;
+  }
+  .anh-khoa-tho-container {
+  position: relative;
+  font-size: 20px;
+  font-family: 'Kotta One';
+  color: #042e9a;
+  text-align: center;
+  display: inline-block;
+  width: 316px;
+  height: 58px;
+}  
+.review {
+  display: flex;
+  flex-direction: row; /* Dàn các ô theo hướng dọc */
+  align-items: center; /* Các ô được căn giữa theo chiều ngang */
+  margin-left: 15%;
+}
+
+.review > div {
+  position: relative;
+  border-radius: 50px;
+  width: 304px;
+  height: 361px;
+  background-color: #95D3F1;
+  justify-content: space-between;
+  margin: 70px;
+  padding: 10px;
+}
+
+.what-is-mental-container,
+.why-is-mental-container,
+.what-causes-mental-container,
+.quiz__container,
+.review {
+  margin-bottom: 20px;
+}
+
+.mnh-tn {
+  position: relative;
+  font-size: 20px;
+  font-family: 'Lao MN';
+  color: #042e9a;
+  text-align: center;
+  display: inline-block;
+  width: 262px;
+  height: 145px;
+  }
+.nhn-vin-t {
+  position: relative;
+    font-size: 20px;
+    font-family: 'Lao MN';
+    color: #002482;
+    text-align: center;
+    display: inline-block;
+    width: 257px;
+    height: 222px;
+    }
+.nh-bn-b {
+  position: relative;
+  font-size: 20px;
+  font-family: 'Lao MN';
+  color: #042e9a;
+  text-align: center;
+  display: inline-block;
+width: 236px;
+      height: 191px;
+}
+.image-8-icon {
+  margin: 50px 0;
+  width: 78px;
+  height: 79px;
+  object-fit: cover;
+  mix-blend-mode: darken;
+  }
+  
+
+        
+        
+    
